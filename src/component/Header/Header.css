@@ -90,6 +90,13 @@
                 }
             }
            }
+           .btns{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            left: 3.5rem;
+           }
         }
         .end{
             position: absolute;
@@ -145,8 +152,7 @@ padding: 0.45rem;
         }
        }
     }
-}
-}
+}}
 
 @media screen and (min-width:1024px) {
     .logo{

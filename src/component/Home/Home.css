@@ -1,0 +1,41 @@
+
+
+.imgebox{
+    height: 500px;
+    .imn{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+Badge{
+    background: #ffff11; 
+}
+
+@media screen and (min-width:720px) {
+    .imgebox{
+        height: 500px;
+        .imn{
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+        }
+    }
+
+    .bad{
+        background: #ffff11; 
+    }
+}
+
+.bts{ 
+     padding: .3rem 1rem;
+    background: crimson;
+    color: white;
+    border: none;
+    outline: none;
+    margin-left: 0.5rem;
+    &:hover{
+        background: black;
+        color: white;
+        box-shadow: 0 2px 4px 2px rgb(255, 255, 255);
+    }}

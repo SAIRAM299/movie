@@ -33,7 +33,6 @@ const unshow=()=>{
                     <li className='navitem'><a href='' className=' navlink'>About</a></li>
                     <li className='navitem'><a href='' className=' navlink'>Contact</a></li>
                     <li className='navitem'><a href='' className=' navlink'><input className='lab'/><button className='btns'> Search</button></a></li>
-                    {/* <li className='navitem'><a href='' className=' navlink'> </a></li> */}
                     
                 </ul>
                 <div className='end' onClick={unshow}>

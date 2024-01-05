@@ -12,3 +12,14 @@
         height: 100%;
     }
 }
+
+@media screen and (max-width:480px) {
+    
+.sliimg{
+    height:300px;
+    .imagee{
+        margin-left: 20%;
+        height: 100%;
+    }
+}
+}

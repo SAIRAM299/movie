@@ -1,27 +1,30 @@
 import React, { useState } from 'react';
 import './Best.css'
-import pic from '../../assets/st.jpg'
+import pic1 from '../../assets/ta.jpg'
+import pic2 from '../../assets/eg.jpg'
+import pic3 from '../../assets/hi.jpg'
+import pic4 from '../../assets/te.jpg'
 import Card from 'react-bootstrap/Card';
 const Best = () => {
 const[cards,setcards]=useState([
     {
         id:1,
-        imgd:pic,
+        imgd:pic1,
         name:"Tamil",
     },
     {
         id:2,
-        imgd:pic,
+        imgd:pic2,
         name:"English",
     },
     {
         id:3,
-        imgd:pic,
+        imgd:pic3,
         name:"Hindi",
     },
     {
         id:4,
-        imgd:pic,
+        imgd:pic4,
         name:"Telugu",
     },
 
@@ -35,8 +38,8 @@ const[cards,setcards]=useState([
 {
 cards.map((gg,i)=>(
 <div className='imgdubba' key={i}>
-           <Card style={{ width: '15rem' }}>
-      <Card.Img variant="top" src={gg.imgd} />
+           <Card style={{ width: '15rem', height:'15rem'}}>
+      <Card.Img variant="top" src={gg.imgd} className='imgbo'/>
       <Card.Body className='cardbody'>
         <Card.Title className='cardname'>{gg.name}</Card.Title>
       </Card.Body>

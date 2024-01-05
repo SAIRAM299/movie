@@ -1,0 +1,17 @@
+.prebody{
+    margin: 5%;
+    background: rgb(30, 28, 28);
+    margin-top: 2%;
+}
+
+
+.sliimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    .imagee{
+        margin-left: 2rem;
+        height: 100%;
+    }
+}

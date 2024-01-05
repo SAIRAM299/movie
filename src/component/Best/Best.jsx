@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Best.css'
-import pic1 from '../../assets/ta.jpg'
-import pic2 from '../../assets/eg.jpg'
+import pic1 from '../../assets/tam.jpg'
+import pic2 from '../../assets/eng.jpg'
 import pic3 from '../../assets/hi.jpg'
 import pic4 from '../../assets/te.jpg'
 import Card from 'react-bootstrap/Card';
@@ -38,7 +38,7 @@ const[cards,setcards]=useState([
 {
 cards.map((gg,i)=>(
 <div className='imgdubba' key={i}>
-           <Card style={{ width: '15rem', height:'15rem'}}>
+           <Card style={{ width: '15rem'}}>
       <Card.Img variant="top" src={gg.imgd} className='imgbo'/>
       <Card.Body className='cardbody'>
         <Card.Title className='cardname'>{gg.name}</Card.Title>

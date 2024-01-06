@@ -1,10 +1,36 @@
+
+
+.re{
+    color: crimson;
+}
+.fullbo{
+    background: rgb(30, 28, 28);
+}
 .prebody{
     margin: 5%;
-    background: rgb(30, 28, 28);
     margin-top: 2%;
 }
+.tinam{
+    color:white;
+    text-align: center;
+    padding: 0.5rem;
 
+}
+.headings{
+.firstu{
+    color: white;
+   .firstone{
+    padding-bottom: 3%;
+   }
+   .firsttwo{
+    padding-bottom: 3%;
+   }
+}
 
+.secondu{
+    color: rgb(129, 121, 121);
+}
+}
 .sliimg{
     height:300px;
     .imagee{
@@ -15,7 +41,18 @@
 }
 
 @media screen and (max-width:480px) {
-    
+    .headings{
+        text-align: center;
+        .firstu{
+            color: white;
+           .firstone{
+            padding-bottom: 0%;
+           }
+           .firsttwo{
+            padding-bottom: 3%;
+           }
+        }
+    }
 .sliimg{
     height:300px;
     .imagee{
@@ -23,6 +60,14 @@
         height: 100%;
     }
 }
+}
+@media screen and (min-width:500px) {
+    .headings{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3%;
+    }
 }
 
 @media screen and (min-width:1200px) {

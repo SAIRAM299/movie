@@ -18,52 +18,52 @@ const [slide,setslide]=useState([
     {
      id:1,
      img:post1,
-  
+  name:"The Godfather",
     },
     {
         id:2,
         img:post2,
-        
+        name:"Avatar",
        },
        {
         id:3,
         img:post3,
-     
+        name:"Top Gun",
        },
        {
         id:4,
         img:post4,
-     
+        name:"The Dark knight",
        },
        {
         id:5,
         img:post5,
-    
+        name:"THOR",
        },
        {
         id:6,
         img:post6,
-        
+        name:"Black Panther",
        },
        {
         id:7,
         img:post7,
-  
+        name:"Final Destination",
        },
        {
         id:8,
         img:post8,
-  
+        name:"The Fast X",
        },
        {
         id:9,
         img:post9,
-
+        name:"Lord of War",
        },
        {
         id:10,
         img:post10,
-       
+        name:"The Last of us",
        },
 ])
 
@@ -113,6 +113,7 @@ responsive: [
 
 
     return (
+      <div className='fullbo'>
         <div className='prebody'>
             <div className='headings'>
 <div className='firstu'>
@@ -120,9 +121,9 @@ responsive: [
 <p className='firsttwo'>Watch your favorite movie</p>
 </div>
 <div className='secondu'>
-<h2 className='secondone'>Powered by NETFLIX</h2>
+<h2 className='secondone'>Powered by <span className='re'>NETFLIX</span> </h2>
 </div>
-
+</div>
 
 <div className='high'>
 <Slider {...settings} className='jas'>
@@ -131,6 +132,7 @@ responsive: [
 slide.map((vv,i)=>(
 <div className='sliimg' key={i}>
     <img src={vv.img} className='imagee'/>
+    <p className='tinam'>{vv.name}</p>
 </div>
 
 ))
@@ -138,8 +140,7 @@ slide.map((vv,i)=>(
 
 </Slider>
 </div>
-
-            </div>
+        </div>
         </div>
     );
 }

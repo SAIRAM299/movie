@@ -21,6 +21,9 @@ height: 120px;
 display: grid;
 justify-content: space-around;
 align-items: center;
+margin: 10%;
+margin-top: 0;
+margin-bottom: 0;
 gap: 1rem;
 }
 .cardbody{

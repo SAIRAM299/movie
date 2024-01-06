@@ -76,7 +76,7 @@ slidesToScroll: 4,
 initialSlide: 0,
 responsive: [
     {
-        breakpoint: 1200,
+        breakpoint: 1300,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 3,
@@ -85,7 +85,7 @@ responsive: [
         }
       },
   {
-    breakpoint: 1024,
+    breakpoint: 950,
     settings: {
       slidesToShow: 3,
       slidesToScroll: 3,

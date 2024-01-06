@@ -32,11 +32,8 @@
 }
 }
 
-.slidub{
-    height: 300px;
-}
 .sliimg{
-    height:100%;
+    height:300px;
     transition: transform  linear;
     &:hover{
         transform:translateY(-10px) ;
@@ -67,11 +64,8 @@
            }
         }
     }
-    .slidub{
-        height: 300px;
-    }
 .sliimg{
-    height:100%;
+    height:300px;
     .imagee{
        width: 90%;
         height: 100%;

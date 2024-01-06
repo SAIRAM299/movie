@@ -131,12 +131,9 @@ responsive: [
 {
 slide.map((vv,i)=>(
 <div className='sliimg' key={i}>
-<div className='slidub'>
     <img src={vv.img} className='imagee'/>
     <p className='tinam'>{vv.name}</p>
 </div>
-</div>
-
 ))
 }
 

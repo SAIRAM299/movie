@@ -72,14 +72,14 @@ const settings = {
 infinite: true,
 speed: 500,
 slidesToShow: 5,
-slidesToScroll: 4,
+slidesToScroll: 3,
 initialSlide: 0,
 responsive: [
     {
         breakpoint: 1300,
         settings: {
           slidesToShow: 4,
-          slidesToScroll: 3,
+          slidesToScroll: 2,
           infinite: true,
           dots: true
         }
@@ -88,7 +88,7 @@ responsive: [
     breakpoint: 950,
     settings: {
       slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToScroll: 2,
       infinite: true,
       dots: true
     }
@@ -131,8 +131,10 @@ responsive: [
 {
 slide.map((vv,i)=>(
 <div className='sliimg' key={i}>
+<div className='slidub'>
     <img src={vv.img} className='imagee'/>
     <p className='tinam'>{vv.name}</p>
+</div>
 </div>
 
 ))

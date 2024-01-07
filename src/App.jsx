@@ -5,6 +5,7 @@ import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import Best from './component/Best/Best';
 import Premium from './component/Premium/Premium';
+import Upcomming from './component/upcoming/Upcomming';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Home/>
       <Best/>
       <Premium/>
+      <Upcomming/>
     </>
   )
 }

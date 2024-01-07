@@ -11,7 +11,7 @@
 
 .upmovbox{
     height: 300px;
-    margin-top: 3%;
+    margin-top: 2%;
     .upmov{
         display: flex;
         justify-content:space-between;
@@ -157,7 +157,7 @@ background: rgb(34, 34, 34);
     
     .upmovbox{
         height: 300px;
-        margin-top: 3%;
+        margin-top: 2%;
     }
     .read{
         display: flex;

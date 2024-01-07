@@ -95,7 +95,7 @@ background: rgb(34, 34, 34);
                 justify-content:space-around;
                 flex-wrap: wrap;
                 align-items: center;
-                gap: 2rem;
+                gap: 1rem;
                height: 100%;
                .upimg{
                 border-radius: 0.5rem;

@@ -107,6 +107,13 @@ background: rgb(34, 34, 34);
     .read{
         height: 250px;
         width: 150px;
+        .readna{
+            color: white;
+            border: none;
+            outline: none;
+            background: crimson;
+            padding: 0.5rem 1rem;
+            border-radius: 3rem;
     }
     }
     

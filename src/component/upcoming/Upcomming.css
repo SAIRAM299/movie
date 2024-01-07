@@ -59,6 +59,38 @@ background: rgb(34, 34, 34);
 }
 }
 
+
+@media screen and (max-width:465px) {
+    .upmovbox{
+        height: 250px;
+        margin-top: 5%;
+        .upmov{
+            display: flex;
+            justify-content:space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 1rem;
+           height: 100%;
+         
+            .upimg{
+                border-radius: 0.5rem;
+                height: 100%;
+                width: 150px;
+                &:hover{
+                    box-shadow: 0 2px 4px 2px crimson;
+                    transform: translateY(-10px);
+                    transition: transform 0.20s linear;
+                }
+            }
+        }
+    }
+
+    .read{
+        height: 250px;
+        width: 150px;
+    }
+}
+
 @media screen and (max-width:465px) {
     .upmovbox{
         height: 300px;

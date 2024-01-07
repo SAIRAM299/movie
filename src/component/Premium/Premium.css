@@ -22,7 +22,7 @@ padding-bottom: 3%;
     margin-top: 2%;
 }
 .tinam{
-    color:white;
+    color:rgb(221, 214, 214);
     text-align: center;
     padding: 0.5rem;
 
@@ -88,7 +88,7 @@ padding-bottom: 3%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 3%;
+        margin-bottom: 2%;
     }
 }
 

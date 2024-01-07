@@ -13,6 +13,7 @@ import './Premium.css'
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { FaGooglePlay } from "react-icons/fa";
 const Premium = () => {
 const [slide,setslide]=useState([
     {
@@ -116,10 +117,15 @@ responsive: [
       <div className='fullbo'>
         <div className='prebody'>
             <div className='headings'>
+              <div className='butty'>
+               <FaGooglePlay className='ico'/> 
 <div className='firstu'>
 <h2 className='firstone'>Premium</h2>
 <p className='firsttwo'>Watch your favorite movie</p>
 </div>
+</div>
+
+
 <div className='secondu'>
 <h2 className='secondone'>Powered by <span className='re'>NETFLIX</span> </h2>
 </div>

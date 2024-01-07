@@ -89,7 +89,7 @@ background: rgb(34, 34, 34);
 @media screen and (max-width:465px) {
     .upmovbox{
         height: 250px;
-        margin-top: 7%;
+        margin-top: 10%;
             .upmov{
                 display: flex;
                 justify-content:space-around;

@@ -81,7 +81,7 @@ responsive: [
           slidesToShow: 4,
           slidesToScroll: 2,
           infinite: true,
-          dots: true
+          dots: false
         }
       },
   {
@@ -90,7 +90,7 @@ responsive: [
       slidesToShow: 3,
       slidesToScroll: 2,
       infinite: true,
-      dots: true
+      dots: false
     }
   },
   {

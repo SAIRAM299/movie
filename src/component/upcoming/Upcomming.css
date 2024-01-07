@@ -14,7 +14,7 @@
     margin-top: 3%;
     .upmov{
         display: flex;
-        justify-content:center;
+        justify-content:space-between;
         flex-wrap: wrap;
         align-items: center;
         gap: 1rem;
@@ -58,3 +58,53 @@ background: rgb(34, 34, 34);
     }
 }
 }
+
+
+@media screen and (max-width:465px) {
+    .upmovbox{
+        height: 300px;
+        margin-top: 5%;
+        .upmov{
+            display: flex;
+            justify-content:space-between;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 1rem;
+           height: 100%;
+         
+            .upimg{
+                border-radius: 0.5rem;
+                height: 100%;
+                width: 180px;
+                &:hover{
+                    box-shadow: 0 2px 4px 2px crimson;
+                    transform: translateY(-10px);
+                    transition: transform 0.20s linear;
+                }
+            }
+        }
+    }
+
+    .read{
+        height: 300px;
+        width: 180px;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .upbox{
+        margin-top: 10%;
+}
+.upmovbox{
+    height: 300px;
+    margin-top: 7%;
+}}
+
+@media screen and (min-width:720px){
+.upbox{
+    margin-top: 5%;
+}
+.upmovbox{
+height: 300px;
+margin-top: 3%;
+}}

@@ -60,9 +60,9 @@ background: rgb(34, 34, 34);
 }
 
 
-@media screen and (max-width:465px) {
+@media screen and (max-width:375px) {
     .upmovbox{
-        height: 250px;
+        height: 200px;
         margin-top: 5%;
         .upmov{
             display: flex;
@@ -75,7 +75,7 @@ background: rgb(34, 34, 34);
             .upimg{
                 border-radius: 0.5rem;
                 height: 100%;
-                width: 150px;
+                width: 100px;
                 &:hover{
                     box-shadow: 0 2px 4px 2px crimson;
                     transform: translateY(-10px);
@@ -86,8 +86,8 @@ background: rgb(34, 34, 34);
     }
 
     .read{
-        height: 250px;
-        width: 150px;
+        height: 200px;
+        width: 100px;
     }
 }
 

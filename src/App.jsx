@@ -16,7 +16,7 @@ function App() {
       <Home/>
       <Best/>
       <Premium/>
-      <Upcomming/>
+      {/* <Upcomming/> */}
      
 <Adone/>
 <Latest/>

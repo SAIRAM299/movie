@@ -57,10 +57,8 @@ const[ime,setime]=useState([
 <h2 className='latestname'>Latest Movie</h2>
                 </div>
 
-                <div className='latestcontent'>
-
+<div className='latestcontent'>
 <div className='divimg'>
-
 {
 ime.map((dd,i)=>(
     <div className='singleimage'>

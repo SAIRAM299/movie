@@ -143,11 +143,38 @@ gap: .2rem;
 
 
 
-@media screen and (min-width:720px){
-
+@media screen and (min-width:700px){
+    .latestcontent{
+        margin: 0;
+         margin-top: 5%;
+     }
     .divimg{
         display: grid;
-        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media screen and (min-width:1024px){
+    .latestcontent{
+        margin: 0;
+         margin-top: 3%;
+     }
+    .divimg{
+        display: grid;
+        justify-content:center;
+        align-items: center;
+        gap: 1rem;
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media screen and (min-width:1300px){
+    .divimg{
+        display: grid;
+        justify-content:center;
+        align-items: center;
         gap: 1rem;
         grid-template-columns: repeat(5,1fr);
     }

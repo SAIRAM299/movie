@@ -12,7 +12,6 @@ import nine from '../../assets/upmov/9.jpg'
 import ten from '../../assets/upmov/10.jpg'
 const Upcomming = () => {
 const[show,setshow]=useState(false)
-
 const handsubmit=()=>{
     setshow(!show)
 }
@@ -22,8 +21,7 @@ const handsubmit=()=>{
             <div className='upbox'>
 <div className='upname'>
 <h2 className='upna'>Upcomming Movie</h2>
-</div>
-
+</div>   
 <div className='upmovbox'>
     <div className='upmov'>
 <img src={one} className='upimg'/>
@@ -31,8 +29,7 @@ const handsubmit=()=>{
 <img src={three} className='upimg'/>
 <img src={four} className='upimg'/>
 <img src={five} className='upimg'/>
-
-{show&& 
+{show&&
 <>
 <img src={six} className='upimg'/>
 <img src={seven} className='upimg'/>
@@ -41,12 +38,10 @@ const handsubmit=()=>{
 <img src={ten} className='upimg'/>
 </>
 }
-
 <div className='read'>
 <button className='readna' onClick={handsubmit} >{!show ?"READ MORE":"READ LESS"}</button>
 </div>
     </div>
-    
 </div>
             </div>
         </div>

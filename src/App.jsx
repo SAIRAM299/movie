@@ -6,6 +6,8 @@ import Home from './component/Home/Home';
 import Best from './component/Best/Best';
 import Premium from './component/Premium/Premium';
 import Upcomming from './component/upcoming/Upcomming';
+import Latest from './component/Latest/Latest';
+import Adone from './component/Advertise/Adone';
 
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
       <Best/>
       <Premium/>
       <Upcomming/>
+     
+<Adone/>
+<Latest/>
     </>
   )
 }

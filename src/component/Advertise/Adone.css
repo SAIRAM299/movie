@@ -1,0 +1,14 @@
+.addy{
+    margin-bottom:3%;
+    margin-top: 15%;
+}
+.adimg{
+    height: 200px;
+    width: 100%;
+}
+
+@media screen and (max-width:550px) {
+    .adimg{
+        object-fit: contain;
+    }
+}

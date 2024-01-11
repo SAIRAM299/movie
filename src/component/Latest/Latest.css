@@ -171,9 +171,12 @@ gap: .2rem;
 }
 
 @media screen and (min-width:1300px){
+    .latestcontent{
+        margin-left: 3%;
+     }
     .divimg{
         display: grid;
-        justify-content:center;
+        justify-content:space-around;
         align-items: center;
         gap: 1rem;
         grid-template-columns: repeat(5,1fr);

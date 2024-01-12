@@ -9,6 +9,7 @@ import Upcomming from './component/upcoming/Upcomming';
 import Latest from './component/Latest/Latest';
 import Adone from './component/Advertise/Adone';
 import Adtwo from './component/Advertise/Adtwo';
+import Popular from './component/Popular/Popular';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
 <Adone/>
 <Latest/>
 <Adtwo/>
+<Popular/>
     </>
   )
 }

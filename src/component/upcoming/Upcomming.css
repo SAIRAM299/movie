@@ -28,7 +28,7 @@
             width: 100%;
             &:hover{
                 box-shadow: 0 2px 4px 2px crimson;
-                transform: translateY(-10px);
+                transform: rotate(360deg);
                 transition: transform 0.20s linear;
             }
         }

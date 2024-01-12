@@ -15,7 +15,7 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 .upmovbox{
    width: 200px;
@@ -52,7 +52,6 @@
         grid-template-columns: repeat(2,1fr);
         margin: 5%;
         margin-top: 2%;
-        margin-bottom: 0;
     }
 
 } 

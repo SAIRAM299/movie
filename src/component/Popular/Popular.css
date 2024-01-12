@@ -52,12 +52,12 @@
     }
 
     .onebo{
-        width: 180px;
+        width: 150px;
         background:  rgb(30, 28, 28);
         color: white;
     }
     .pos{
-        height: 280px;
+        height: 230px;
         width: 100%;
     }
 }

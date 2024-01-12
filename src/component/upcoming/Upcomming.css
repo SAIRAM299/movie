@@ -1,7 +1,6 @@
 .upbox{
     margin: 5%;
     margin-top: 3%;
-    margin-bottom: 0;
 .upname{
     .upna{
         color: white;
@@ -15,7 +14,6 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
-    margin-bottom: 5%;
 }
 .upmovbox{
    width: 200px;
@@ -65,7 +63,6 @@
         grid-template-columns: repeat(3,1fr);
         margin: 5%;
         margin-top: 2%;
-        margin-bottom: 2%;
         margin-right: 3%;
     }
 

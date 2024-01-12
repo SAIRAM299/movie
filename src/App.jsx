@@ -15,14 +15,14 @@ import Adthree from './component/Advertise/Adthree';
 function App() {
   return (
     <>
-      {/* <Header/>
+      <Header/>
       <Home/>
       <Best/>
       <Premium/>
       <Upcomming/>
 <Adone/>
 <Latest/>
-<Adtwo/> */}
+<Adtwo/>
 <Popular/>
 <Adthree/>
     </>

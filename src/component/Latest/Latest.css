@@ -1,6 +1,7 @@
 .latestbody{
     margin: 5%;
-    margin-top: 3%;
+margin-top: 3%;
+margin-bottom: 0;
 }
 .latestname{
     color: white;
@@ -9,6 +10,7 @@
 .latestcontent{
     margin: 5%;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .divimg{
@@ -16,6 +18,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 .singleimage{
     border-radius: 1rem;
@@ -146,7 +149,7 @@ gap: .2rem;
 @media screen and (min-width:700px){
     .latestcontent{
         margin: 0;
-         margin-top: 5%;
+         margin-top: 0;
      }
     .divimg{
         display: grid;
@@ -157,9 +160,14 @@ gap: .2rem;
     }
 }
 @media screen and (min-width:1024px){
+    .latestbody{
+        margin: 5%;
+    margin-top: 2%;
+    margin-bottom: 0;
+    }
     .latestcontent{
         margin: 0;
-         margin-top: 3%;
+         margin-top: 0;
      }
     .divimg{
         display: grid;

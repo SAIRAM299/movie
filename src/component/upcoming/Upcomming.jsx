@@ -11,10 +11,39 @@ import eight from '../../assets/upmov/8.jpg'
 import nine from '../../assets/upmov/9.jpg'
 import ten from '../../assets/upmov/10.jpg'
 const Upcomming = () => {
-const[show,setshow]=useState(false)
-const handsubmit=()=>{
-    setshow(!show)
-}
+const[sho,setsho]=useState([
+    {
+        m:one,
+    },
+    {
+        m:two,
+    },
+    {
+        m:three,
+    },
+    {
+        m:four,
+    },
+    {
+        m:five,
+    },
+    {
+        m:six,
+    },
+    {
+        m:seven,
+    },
+    {
+        m:eight,
+    },
+    {
+        m:nine,
+    },
+    {
+        m:ten,
+    },
+])
+
 
     return (
         <div>
@@ -22,26 +51,15 @@ const handsubmit=()=>{
 <div className='upname'>
 <h2 className='upna'>Upcomming Movie</h2>
 </div>   
-<div className='upmovbox'>
+<div className='dum'>
+    {
+sho.map((hh,i)=>(
+<div className='upmovbox' key={i}>
     <div className='upmov'>
-<img src={one} className='upimg'/>
-<img src={two} className='upimg'/>
-<img src={three} className='upimg'/>
-<img src={four} className='upimg'/>
-<img src={five} className='upimg'/>
-{show&&
-<>
-<img src={six} className='upimg'/>
-<img src={seven} className='upimg'/>
-<img src={eight} className='upimg'/>
-<img src={nine} className='upimg'/>
-<img src={ten} className='upimg'/>
-</>
-}
-<div className='read'>
-<button className='readna' onClick={handsubmit} >{!show ?"READ MORE":"READ LESS"}</button>
+<img src={hh.m} className='upimg'/>
 </div>
-    </div>
+</div>
+))  }
 </div>
             </div>
         </div>

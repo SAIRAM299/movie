@@ -41,9 +41,12 @@ letter-spacing: 1px;
     }
 
     @media screen and (max-width:500px) {
-       .adname{
-text-align: center;
-       }
+        .adhalf{
+            display: grid;
+            gap: 2rem;
+            padding: 1rem 1rem;
+           
+        }
         .v{
             height: 100%;
             width: 100%;

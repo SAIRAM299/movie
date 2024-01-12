@@ -41,6 +41,9 @@ letter-spacing: 1px;
     }
 
     @media screen and (max-width:500px) {
+       .adful{
+            margin-top: 8%;
+        }
         .adhalf{
             display: grid;
             gap: 2rem;

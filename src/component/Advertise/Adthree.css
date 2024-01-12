@@ -1,0 +1,11 @@
+.ro{
+    height: 200px;
+    &:hover{
+        box-shadow: 0 2px 4px 2px white;
+        transform: translateY(-7px);
+    }
+}
+.bod{
+    margin: 5%;
+    margin-top: 3%;
+}

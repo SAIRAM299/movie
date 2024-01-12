@@ -9,8 +9,9 @@ import s from '../../assets/ad/s.png'
 import { Carousel } from 'react-carousel3';
 const Adthree = () => {
     const style = {
-        width: 297,
-        height: 296,
+        width: '100%',
+        maxWidth: '600px',
+        height: 'auto',
       };
     return (
         <div className='bod'>
@@ -21,7 +22,7 @@ const Adthree = () => {
       background:  'rgb(30, 28, 28)',
     }}
   >
-    <Carousel height={300} width={1500} yOrigin={43} xOrigin={720} yRadius={50} autoPlay={false}>
+    <Carousel height={300} width={'100%'} yOrigin={43} xOrigin={680} yRadius={50} autoPlay={false}>
       <div key={1} style={style}>
         <img alt="" src={c} className='ro' />
       </div>

@@ -1,3 +1,4 @@
+
 .ro{
     height: 200px;
     &:hover{
@@ -6,6 +7,13 @@
     }
 }
 .bod{
+
     margin: 5%;
     margin-top: 3%;
+}  
+
+@media screen and (max-width:1300px) {
+    .bod{
+        display: none;
+    }
 }

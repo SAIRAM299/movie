@@ -8,6 +8,7 @@ import Premium from './component/Premium/Premium';
 import Upcomming from './component/upcoming/Upcomming';
 import Latest from './component/Latest/Latest';
 import Adone from './component/Advertise/Adone';
+import Adtwo from './component/Advertise/Adtwo';
 
 function App() {
   return (
@@ -17,9 +18,9 @@ function App() {
       <Best/>
       <Premium/>
       <Upcomming/>
-     
 <Adone/>
 <Latest/>
+<Adtwo/>
     </>
   )
 }

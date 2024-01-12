@@ -105,6 +105,7 @@ gap: .2rem;
     .latestcontent{
        margin: 10%;
         margin-top: 5%;
+        margin-bottom: 0;
     }
     .divimg{
         display: grid;

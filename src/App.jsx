@@ -11,6 +11,7 @@ import Adone from './component/Advertise/Adone';
 import Adtwo from './component/Advertise/Adtwo';
 import Popular from './component/Popular/Popular';
 import About from './component/About/About';
+import Footer from './component/footer/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
 <Adtwo/>
 <Popular/>
 <About/>
+<Footer/>
     </>
   )
 }

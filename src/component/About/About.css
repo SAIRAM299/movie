@@ -1,5 +1,6 @@
 .abcontain{
     margin: 6%;
+    
     .abname{
         color: white;
         line-height: 1.5rem;
@@ -40,6 +41,7 @@
 @media screen and (min-width:556px) {
     .abcontain{
         margin: 6%;
+        margin-bottom: 2%;
         .abname{
             color: white;
             line-height: 1rem;

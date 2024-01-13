@@ -36,7 +36,6 @@
 }
 @media screen and (max-width:500px) {
     .super{
-        margin-top: 3%;
         display: grid;
         align-items: center;
         justify-content: center;
@@ -47,8 +46,6 @@
         padding-bottom: 3%;
     }
     .accbody{
-        margin: 5%;
-        margin-top: 0;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 1rem;

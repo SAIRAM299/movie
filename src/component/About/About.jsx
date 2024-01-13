@@ -1,5 +1,5 @@
 import React from 'react';
-import con from '../../Assets/abc.png'
+import con from '../../Assets/abk.png'
 import the from '../../Assets/abt.png'
 import com from '../../Assets/abu.png'
 import './About.css'

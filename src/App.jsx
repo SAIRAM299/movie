@@ -10,7 +10,7 @@ import Latest from './component/Latest/Latest';
 import Adone from './component/Advertise/Adone';
 import Adtwo from './component/Advertise/Adtwo';
 import Popular from './component/Popular/Popular';
-import Adthree from './component/Advertise/Adthree';
+import About from './component/About/About';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
 <Latest/>
 <Adtwo/>
 <Popular/>
-{/* <Adthree/> */}
+<About/>
     </>
   )
 }

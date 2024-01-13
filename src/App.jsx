@@ -15,7 +15,7 @@ import About from './component/About/About';
 function App() {
   return (
     <>
-      <Header/>
+      {/* <Header/>
       <Home/>
       <Best/>
       <Premium/>
@@ -23,7 +23,7 @@ function App() {
 <Adone/>
 <Latest/>
 <Adtwo/>
-<Popular/>
+<Popular/> */}
 <About/>
     </>
   )

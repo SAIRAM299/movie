@@ -22,8 +22,8 @@ function App() {
       <Upcomming/>
 <Adone/>
 <Latest/>
-<Adtwo/>
-<Popular/> */}
+<Adtwo/> */}
+<Popular/>
 <About/>
     </>
   )

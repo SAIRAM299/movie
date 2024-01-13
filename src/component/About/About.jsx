@@ -1,8 +1,9 @@
 import React from 'react';
+import './About.css'
 import con from '../../assets/abo/contry.png'
 import the from '../../assets/abo/thet.png'
 import com from '../../assets/abo/unity.png'
-import './About.css'
+
 const About = () => {
     return (
         <div>

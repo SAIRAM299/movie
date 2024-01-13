@@ -24,7 +24,7 @@ function App() {
 <Latest/>
 <Adtwo/>
 <Popular/>
-<Adthree/>
+{/* <Adthree/> */}
     </>
   )
 }

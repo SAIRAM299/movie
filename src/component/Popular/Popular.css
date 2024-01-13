@@ -1,5 +1,5 @@
 .super{
-  margin-top: 2%; 
+  margin-top: 5%; 
 }
 
 .poname{
@@ -36,6 +36,9 @@
 @media screen and (max-width:500px) {
     .super{
         margin-top: 3%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
     }
     .poname{
         color: white;
@@ -46,18 +49,17 @@
         margin: 5%;
         margin-top: 0;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        justify-content: space-around;
+        grid-template-columns: repeat(1,1fr);
         gap: 1rem;
     }
 
     .onebo{
-        width: 150px;
+        width: 100%px;
         background:  rgb(30, 28, 28);
         color: white;
     }
     .pos{
-        height: 230px;
+        height: 300px;
         width: 100%;
     }
 }

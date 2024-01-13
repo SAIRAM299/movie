@@ -1,6 +1,6 @@
 .upbox{
     margin: 5%;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-bottom: 3%;
 .upname{
     .upna{
@@ -60,7 +60,7 @@
         display: grid;
         justify-content:space-between;
         align-items: center;
-        gap: 1rem;
+        gap: 2rem;
         grid-template-columns: repeat(3,1fr);
         margin: 5%;
         margin-top: 2%;
@@ -76,7 +76,7 @@
         display: grid;
         justify-content:center;
         align-items: center;
-        gap: 1rem;
+        gap: 2rem;
         grid-template-columns: repeat(4,1fr);
     }
 
@@ -86,7 +86,7 @@
         display: grid;
         justify-content:space-around;
         align-items: center;
-        gap: 1rem;
+        gap: 2rem;
         grid-template-columns: repeat(5,1fr);
     }
 

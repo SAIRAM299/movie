@@ -15,14 +15,14 @@ import About from './component/About/About';
 function App() {
   return (
     <>
-      {/* <Header/>
+      <Header/>
       <Home/>
       <Best/>
       <Premium/>
       <Upcomming/>
 <Adone/>
 <Latest/>
-<Adtwo/> */}
+<Adtwo/>
 <Popular/>
 <About/>
     </>

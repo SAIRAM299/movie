@@ -84,6 +84,10 @@ padding-bottom: 3%;
 }
 }
 @media screen and (min-width:500px) {
+    .fullbo{
+        background: rgb(30, 28, 28);
+        margin: 5%;
+    }
     .headings{
         display: flex;
         justify-content: space-between;

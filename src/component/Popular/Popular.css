@@ -1,5 +1,6 @@
 .super{
-  margin-top: 5%; 
+  margin: 5%; 
+
 }
 
 .poname{
@@ -11,7 +12,7 @@
     display: flex;
     align-items:start;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 .bobby{
